@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>2. Explain the Inline, Internal, and External Stylesheet.</h1>
+  <p>In CSS, we have 3 different ways of writing styles for HTML elements:</p>
+    <h1>o   Inline</h1>
+    <h1>o   Internal</h1>
+    <h1>o   External</h1>
+
+    <p>Inline styling gets applied directly to the element in the style attribute. This styling is having the highest priority among all. But it is not advised to use this styling much in projects.
+    </p>
+
+    <h1 style="color: red; text-align:center;">Heading One</h1>
+    <p style="color: blue;">This is a paragraph</p>
+    <p>Internal styling gets written in the head tag of the HTML file. It will be written in the style tag. The styling written in style tag will be applicable only in that HTML file.
+    </p>
+
+
+    <h1  style="color: black ;  text-align:center;">Internal</h1>
+
+        <code>
+            <head>
+                <style>       
+                h1 {
+                  color: maroon;
+                  margin-left: 40px;
+                }
+                
+         
+              p{
+                    color: maroon;
+                }
+                </style>
+                </head>
+        </head>
+        <body>
+            <h1>First Heading</h1>
+            <p>This is a paragraph</p>
+               <h1 style="color: black ; text-align:center;">Inline</h1>
+                <style>       
+                h1 {
+                  color: maroon;
+                  margin-left: 40px;
+                }
+                
+         
+              p{
+                    color: maroon;
+                }
+                </style>
+                </head>
+            <h1>First Heading</h1>
+            <p>This is a paragraph</p>
+        </code>
+      </pre>
+
+      <p>External Styling is done by creating a different CSS file with .css extension. This file can be linked to any HTML file wherever the styling is required. The external CSS file can be attached to the HTML file in the head tag in the link tag. This styling is having the least priority but it is the most advised way of writing styling in projects.</p>
+      <h1 style="color: rgb(0, 0, 0); text-align:center;">External</h1>
+      <h1>This is a heading</h1>
+      <p>This is a paragraph.</p>
+  
+  
+
+    </body>
+</html>

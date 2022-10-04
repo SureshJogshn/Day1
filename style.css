@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex1-items{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 20px 20px;  }
+
+
+.containers{
+        display: flex;
+        flex-direction: column;
+}
+
+.flex2-items{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 20px 20px;
+}
+
+h1 {
+    color: blue;
+    margin-top: 40px;
+  }
+p{
+    color: maroon;
+    font-size: 30px;
+}

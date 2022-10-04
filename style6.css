@@ -1,0 +1,17 @@
+#box1 {
+    width: 100px;
+    height: 100px;
+    top: 69px;
+    position: relative;
+    background-color: greenyellow;
+    z-index: 1;
+}
+#box2 {
+    width: 150px;
+    height: 150px;
+    top: 34px;
+    left: 20px;
+    position: absolute;
+    background-color: rebeccapurple;
+    z-index: 0;
+}
